@@ -1,11 +1,12 @@
-import products2 from "../../commonForAll/export_product";
+// import products2 from "../../commonForAll/export_product";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import Navbar from "../Navbar/Navbar";
-import Sidebar from "../Sidebar/Sidebar";
+// import Navbar from "../Navbar/Navbar";
+// import Sidebar from "../Sidebar/Sidebar";
 import { useForm } from "react-hook-form";
 import ContentHeader from "../../header/ContentHeader";
-import Model from "../../commonForAll/model";
+// import Model from "../../commonForAll/model";
+import Model from "../../commonForAll/Model";
 import "../../../css/Form.css";
 import toast, { Toaster } from "react-hot-toast"
 

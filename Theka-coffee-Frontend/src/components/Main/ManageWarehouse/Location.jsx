@@ -1,6 +1,6 @@
 import React from "react";
 // import {cities} from indian-states-cities-list;
-import { State, City } from "country-state-city";
+// import { State, City } from "country-state-city";
 
 // console.log(City.getAllCities());
 export const states = [

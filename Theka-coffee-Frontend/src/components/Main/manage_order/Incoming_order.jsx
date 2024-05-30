@@ -4,7 +4,7 @@ import axios from "axios";
 import "../../../css/Table.css";
 import ContentHeader from "../../header/ContentHeader";
 // import CsvDownloader from "react-csv-downloader";
-import Model from "../../commonForAll/model";
+import Model from "../../commonForAll/Model";
 import * as XLSX from "xlsx";
 // import { Link } from "react-router-dom";
 import toast, { Toaster } from "react-hot-toast"

@@ -5,7 +5,8 @@ import * as XLSX from "xlsx";
 import { Link } from "react-router-dom";
 import "../../../css/Table.css";
 import ContentHeader from "../../header/ContentHeader";
-import Model from "../../commonForAll/model";
+// import Model from "../../commonForAll/model";
+import Model from "../../commonForAll/Model";
 import Return_reason_modal from "../../commonForAll/Return_reason_modal";
 import toast, { Toaster } from "react-hot-toast";
 

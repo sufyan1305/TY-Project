@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import "../../../css/Table.css";
 import ContentHeader from "../../header/ContentHeader";
 import * as XLSX from "xlsx";
-import Model from "../../commonForAll/model";
+import Model from "../../commonForAll/Model";
 import Edit_stock_InputModal from "../../commonForAll/Edit_stock_InputModal";
 
 export default function StockList() {

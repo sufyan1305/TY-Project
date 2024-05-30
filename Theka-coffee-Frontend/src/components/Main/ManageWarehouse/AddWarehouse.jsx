@@ -4,7 +4,8 @@ import ContentHeader from "../../header/ContentHeader";
 import {states} from "./Location"
 import { useForm } from "react-hook-form";
 import "../../../css/AddWarehouse.css";
-import Model from "../../commonForAll/model";
+import Model from "../../commonForAll/Model";
+
 import toast, { Toaster } from "react-hot-toast"
 
 export default function WarehouseForm() {

@@ -7,7 +7,7 @@ import ContentHeader from "../../header/ContentHeader";
 import "../../../css/Form.css";
 import products2 from "../../commonForAll/export_product";
 import { json } from "react-router-dom";
-import Model from "../../commonForAll/model";
+import Model from "../../commonForAll/Model.jsx";
 import toast, { Toaster } from "react-hot-toast"
 
 function AddStock() {

@@ -14,13 +14,13 @@ import AddProduct from "./components/Main/Manage_product/addProduct";
 import AddStock from "./components/Main/ManageStock/add_stock";
 import MakeOrder from "./components/Main/manage_order/make_order";
 import UserList from "./components/Main/ManageUsers/UserList";
-import ProductList from "./components/Main/Manage_product/productList";
+import ProductList from "./components/Main/Manage_product/ProductList"
 import WarehouseList from "./components/Main/ManageWarehouse/WarehouseList";
 import StockList from "./components/Main/ManageStock/StockList2";
 import Your_order from "./components/Main/manage_order/Your_order";
 import Incoming_order from "./components/Main/manage_order/Incoming_order";
-import Outgoing_order from "./components/Main/manage_order/outgoing_order";
-import Table from "./components/commonForAll/Table";
+import Outgoing_order from "./components/Main/manage_order/Outgoing_order";
+// import Table from "./components/commonForAll/Table";
 // import Report from "./components/Main/Reports/Reports";
 import Reports from "./components/Main/Reports/Reports";
 import UpdateProfile from "./components/Main/UpdateProfile/UpdateProfile";
@@ -30,7 +30,7 @@ import Return_order from "./components/Main/manage_order/Return_order";
 
 function App() {
   const isLogin = window.localStorage.getItem("loggedIn");
-  const username = window.localStorage.getItem("user");
+  // const username = window.localStorage.getItem("user");
 
   return (
     <BrowserRouter>
